@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condiçoes</title>
+</head>
+<body>
+    <h1>
+        voce vota ou kua?
+    </h1>
+    <input type="text" name="txtvel" id="txtvel">
+    <input type="button" value="conferir" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var txt = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('#res')
+            var vt = String(txt.value)
+            if (vt == 'voto obrigatorio') {
+                res.innerHTML = 'voto obrigatorio'
+            } else (vt <= 65)
+                res.innerHTML = 'voto facultativo'
+            }
+            
+        
+    </script>
+</body>
+</html>
