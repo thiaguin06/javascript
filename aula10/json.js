@@ -6,7 +6,7 @@
 }  */
 
      const pessoa = {
-        nome : "thiago",
+        nome : "lucas",
         idade : 18,        // aqui esta em objeto
         cidade : "itacarambi",
      }  
