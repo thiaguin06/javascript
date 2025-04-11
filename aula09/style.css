@@ -23,3 +23,10 @@ section{
     margin: auto; 
     
     }
+body{
+    background-image:url(./imgb.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+

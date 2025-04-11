@@ -5,5 +5,5 @@ function partimp (n){
         return 'impar'
     }
 }  
-let res = partimp(100)
+let res = partimp(90)
 console.log(res)

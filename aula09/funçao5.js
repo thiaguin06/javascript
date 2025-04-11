@@ -5,4 +5,4 @@ function fatorial (n){
     }
     return faat
 }
-console.log(fatorial(5))
+console.log(fatorial(6))
